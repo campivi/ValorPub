@@ -39,8 +39,10 @@
                 <p>con artículos e investigaciones para nuestro blog.</p>
               </div>
               <div class="links">
-                <img src="<?php echo base_url(); ?>assets/images/ico_mas.png">
-                <a href="">Nuestro blog</a>
+                <a href="<?php echo base_url(); ?>capacitacion">
+                  <img src="<?php echo base_url(); ?>assets/images/icon_plus.png">
+                  Nuestro blog
+                </a>
               </div>
               <hr class="down">
             </div>
@@ -58,8 +60,8 @@
                 <p>el enfoque de AVP para la trasformación de la gestión pública.</p>
               </div>
               <div class="links">
-                  <img src="<?php echo base_url(); ?>assets/images/icon_facebook.png">
-                  <img src="<?php echo base_url(); ?>assets/images/icon_linkedin.png">
+                  <a href="https://www.facebook.com/AValorPublico" target="_blank"><img src="<?php echo base_url(); ?>assets/images/icon_facebook.png"></a>
+                  <a href=""><img src="<?php echo base_url(); ?>assets/images/icon_linkedin.png"></a>
               </div>
               <hr class="down">
             </div>
@@ -77,8 +79,10 @@
                 <p>como miembro del grupo de trabajo de la Asociación.</p>
               </div>
               <div class="links">
-                <img src="<?php echo base_url(); ?>assets/images/ico_mas.png">
-                <a href="">Envíanos tus datos</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@valorpublico.com" target="_blank">
+                  <img src="<?php echo base_url(); ?>assets/images/icon_plus.png">
+                  Envíanos tus datos
+                </a>
               </div>
               <hr class="down">
             </div>

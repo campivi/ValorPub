@@ -94,7 +94,7 @@
           	 	<p>Buscamos conectar los esfuerzos y energías de las personas que desean el cambio en la gestión pública, sin importar la cantidad de experiencia que posees.</p>
           	</div>
           	<div class="a-button">
-          		<a href="">Únete</a>
+          		<a href="<?php echo base_url(); ?>cambio">Únete</a>
           	</div>
         </div>
         <div class="a-card">
@@ -105,7 +105,7 @@
           	 	<p>Trabajamos para diversas organizaciones y líderes que desean un verdadero cambio transformacional, no por decreto, sino por convicción.</p>
           	</div>
           	<div class="a-button">
-          		<a href="">Contáctanos</a>
+          		<a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@valorpublico.com" target="_blank">Contáctanos</a>
           	</div>
         </div>
       </div>

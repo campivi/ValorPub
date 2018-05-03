@@ -1057,21 +1057,21 @@ ul.nav_hor li a {
 .list_capacitacion.loader {
   background: url("../images/loader.GIF") center center no-repeat;
   height: 200px;
-}/*
-.item {
+}
+.list_investigacion .item {
   float: left;
   margin: 0 20px 0 0;
   margin: 0 10px 0 0;
   padding: 0 0 36px;
   width: 298px;
   width: 200px
-}*/
+}
 .item.item_cap{
   margin: 0 20px 0 0;
   width: 298px;
 }
-.item.no_margin_right {
-  margin-right: 0;
+.no_margin_right {
+  margin-right: 0 !important;
 }
 .item .img_item {
   height: 205px;
@@ -3083,11 +3083,11 @@ input:-moz-placeholder {
   }
   .detail_consultoria{
     width: 74%
-  }
+  }/*
   .item{
     width: 30%;
     margin-right: 5%;
-  }
+  }*/
   .item .img_item{
     line-height:  205px;
     width:  100%;
@@ -3458,7 +3458,7 @@ input:-moz-placeholder {
   #capacitacion .title{
     padding: 0;
   }
-  .item{
+  .list_investigacion .item{
     width: 220px;
     float: none;
     margin: 0 auto;

@@ -483,7 +483,6 @@ header{
   background-repeat: no-repeat;
   background-size: contain;
   float: left;
-  pointer-events: none;
   margin-top: 10px;
 }
 @media screen and (min-width: 600px) {    
@@ -820,7 +819,7 @@ header{
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);*/
   left: 10%;
   right: 42%;
   padding-bottom: 10vw;
@@ -832,6 +831,7 @@ header{
 .carousel-caption h3{
   font-size: 3.5rem;
   margin: 0;
+  color: #fff;
 }
 .carousel-caption hr{
   background-color: #fff;
@@ -913,7 +913,7 @@ header{
   margin: auto;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.99;
   margin: 12px 0;
 }
 @media screen and (max-width: 768px) {
@@ -991,6 +991,7 @@ header{
     font-size: 1rem;
   }
 }
+
 /* EXPERIENCIA */
 .experiencia .experiencia-inner h3{
   font-size: 3.5rem;
@@ -1054,10 +1055,53 @@ header{
   text-decoration: underline;
   text-underline-position: under;
 }
+.i-text{
+  display: none;
+  position: relative;
+  /*display: inline-grid;*/
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #2f841e;
+  background-clip: border-box;
+  text-align: justify;
+  opacity: 0.8;
+  padding: 20px;
+}
+.i-text .card-sub h3{
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.i-text .card-desc h3{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: unset;
+}
+.i-text .card-link a{
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-align: center;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .i-text .card-desc h3{
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 980px) {
   .i-card .card-logo{
     height: 180px;
     width: 180px;
+  }
+  .i-text{
+    height: 310px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1385,10 +1429,14 @@ header{
 .comportamiento .comportamiento-inner{
   position: relative;
   height: 350px;
+  background-image: url(../images/banner_enfoque.png);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
 }
 .comportamiento .comportamiento-inner:before{
   position: absolute;
-  background-image: url(../images/banner_enfoque.jpg);
+  background-image: url(../images/banner_enfoque.png);
   width: 100%;
   height: 75vh;
   overflow: hidden;
@@ -1397,9 +1445,8 @@ header{
   opacity: 0.2;
   filter: opacity(50%);
   background-repeat: no-repeat;
-  background-position: center;
   background-attachment:fixed;
-  content : "";
+  /*content : "";*/
   display: block;
 }
 .comportamiento .comportamiento-inner .c-title{
@@ -1821,6 +1868,10 @@ header{
   padding: 15px;
   margin-top: 20px;
 }
+.aliados .aliados-inner .a-card {
+    position: relative;
+    padding-bottom: 40px;
+}
 .aliados .aliados-inner .a-card .a-title{
   width: 100%;
   height: 20px;
@@ -1852,6 +1903,8 @@ header{
   right: 0;
   margin: auto;
   padding: 10px;
+  bottom: 0;
+  position: absolute;
 }
 .aliados .aliados-inner .a-card .a-button a{
   color: #fff;

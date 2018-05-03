@@ -6,14 +6,14 @@
 							<div class="redes-sociales">
 								<h3>Síguenos en: </h3>								
 								<div class="contactanos-mobile">
-									<img src="<?php echo base_url(); ?>assets/images/icon_facebook.png">
-									<img src="<?php echo base_url(); ?>assets/images/icon_linkedin.png">
+									<a href="https://www.facebook.com/AValorPublico" target="_blank"><img src="<?php echo base_url(); ?>assets/images/icon_facebook.png"></a>
+									<a href="" target="_blank"><img src="<?php echo base_url(); ?>assets/images/icon_linkedin.png"></a>
 								</div>
 							</div>
 							<div class="contactanos">
 								<h3>Contáctanos: </h3>
 								<div class="contactanos-mobile">
-									<img src="<?php echo base_url(); ?>assets/images/icon_email.png">
+									<a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@valorpublico.com" target="_blank"><img src="<?php echo base_url(); ?>assets/images/icon_email.png"></a>
 									<h4>info@valorpublico.com</h4>
 								</div>
 							</div>

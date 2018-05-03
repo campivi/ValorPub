@@ -49,7 +49,7 @@
      <main>
       <header>
         <div class="container header">
-          <a href="<?php echo base_url(); ?>" class="logo"></a>
+          <a href="<?php echo base_url();?>" class="logo"></a>
           <div class="language">
             <a href="#" class="lang">EN</a>|<a href="#" class="lang">ES</a>
           </div>

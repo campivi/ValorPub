@@ -28,7 +28,7 @@
             <h4><?php echo $nosotros->descripcion_misional ?></h4>
           </div>
           <div class="m-link">
-            <a href="#" class="button">Nuestro enfoque</a>
+            <a href="<?php echo base_url(); ?>nuestro_enfoque" class="button">Nuestro enfoque</a>
           </div>
         </div>
         <div class="m-img">
